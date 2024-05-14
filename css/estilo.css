@@ -8,8 +8,9 @@ main{
     margin-right: auto;
 }
 footer{
-    background-color: aqua;
-    padding: 3%;
+    background-color:darkred
+    padding 3%;
+    font-size: 2rem;
 }
 nav{
     background-color: crimson;
@@ -17,24 +18,43 @@ nav{
 }
 .ronaldo{
     width: 33%;
-    margin-left: 32%;
+    margin-left: auto;
     margin-right: auto;
 }
 body {
     background-color: #8C1F28;
 }
 h1{
-    margin-left: 35%;
-    font-size: 32px
+    text-align: center;
+    font-size: 2rem
 }
 .biografia{
-    background-color: darkgray;
+    background-color: #8C1F28;
+    font-size: 1.5rem;
+    color: azure;
 }
 .tituloronaldo{
-    margin-left: 34%;
-    font-size: 44px
+    text-align: center;
+    font-size: 3rem
 }
 .linha{
     display: flex;
     flex-flow: row wrap;
+}
+.col-3{
+    width: 25%;
+}
+.col-3 p{
+    font-size: 1em;
+    text-align: center;
+}
+.imggaleria{
+    width: 90%;
+}
+.nome{
+    text-align: center;
+    color: azure ;
+}
+.fotoronaldo{
+   text-align: center;
 }
