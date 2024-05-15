@@ -58,3 +58,19 @@ h1{
 .fotoronaldo{
    text-align: center;
 }
+table{
+    text-align: center;
+    color: azure;
+}
+td,th {
+    border: 5px dashed black ;
+    padding: 1.5%;
+    width: 26.66%;
+}
+.Recordes{
+    text-align: center;
+    font-size: 2rem
+}
+li{
+    color: azure ;
+}
