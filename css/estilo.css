@@ -12,6 +12,11 @@ footer{
     padding 3%;
     font-size: 2rem;
 }
+@media only screen and (max-width:  800px) {
+    footer{
+        background-color: black;
+    }
+}
 nav{
     background-color: crimson;
     padding: 2%;
@@ -53,7 +58,7 @@ h1{
 }
 .nome{
     text-align: center;
-    color: azure ;
+    color:grey
 }
 .fotoronaldo{
    text-align: center;
@@ -76,4 +81,9 @@ li{
 }
 .lista{
     font-size: 1.5rem; 
+}
+.Nassr{
+    background-color: #8C1F28;
+    font-size: 1.5rem;
+    color: azure;
 }
