@@ -31,7 +31,9 @@ body {
 }
 h1{
     text-align: center;
-    font-size: 2rem
+    font-size: 2rem;
+    padding:1%
+    
 }
 .biografia{
     background-color: #8C1F28;
@@ -71,6 +73,7 @@ td,th {
     border: 5px dashed black ;
     padding: 1.5%;
     width: 26.66%;
+    text-align: center;
 }
 .Recordes{
     text-align: center;
@@ -78,6 +81,7 @@ td,th {
 }
 li{
     color: azure ;
+    padding: 1%;
 }
 .lista{
     font-size: 1.5rem; 
@@ -86,4 +90,31 @@ li{
     background-color: #8C1F28;
     font-size: 1.5rem;
     color: azure;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+}
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+     background-color:rgb(33, 70, 33);
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); 
+    }
+}
+@media screen and (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); 
+    }
+}
+.tituloscards{
+    text-align: center;
+    font-size: 1.5rem; 
 }
