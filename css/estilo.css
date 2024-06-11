@@ -57,6 +57,7 @@ h1{
 }
 .imggaleria{
     width: 90%;
+    padding: 3%;
 }
 .nome{
     text-align: center;
@@ -117,4 +118,7 @@ li{
 .tituloscards{
     text-align: center;
     font-size: 1.5rem; 
+}
+a {
+    color: green;
 }
