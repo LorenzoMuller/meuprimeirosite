@@ -8,9 +8,13 @@ main{
     margin-right: auto;
 }
 footer{
-    background-color:darkred
-    padding 3%;
+    background-color:red;
+    padding :3%;
     font-size: 2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 8px;
+    padding: 0.5%;
 }
 @media only screen and (max-width:  800px) {
     footer{
@@ -61,7 +65,7 @@ h1{
 }
 .nome{
     text-align: center;
-    color:grey
+    color:black;
 }
 .fotoronaldo{
    text-align: center;
@@ -124,4 +128,20 @@ a {
 }
 .logo{
     width: 28%;
+}
+.container{
+    position: relative;
+    text-align: center;
+    padding: 2%;
+}
+.absolute{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-size: 18px;
+}
+.imgrelativo{
+    opacity: 0.8;
+    width: 100%;
+    height:auto;
 }
