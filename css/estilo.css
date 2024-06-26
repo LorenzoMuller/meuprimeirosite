@@ -1,7 +1,10 @@
 header{
     background-color: darkred;
-    padding: 2.5%;
-    text-align: center;
+    padding: 1%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8px;
+    z-index: 1;
 }
 main{
     width: 80%;
@@ -12,8 +15,6 @@ footer{
     background-color:red;
     padding :3%;
     font-size: 2rem;
-    position: -webkit-sticky;
-    position: sticky;
     bottom: 8px;
     padding: 0.5%;
 }
@@ -24,6 +25,7 @@ footer{
 }
 nav{
     padding: 1.2%;
+    display: flex;
 }
 .ronaldo{
     width: 33%;
@@ -36,7 +38,7 @@ body {
 h1{
     text-align: center;
     font-size: 2rem;
-    padding:1%
+    padding:2%
     
 }
 .biografia{
@@ -44,6 +46,7 @@ h1{
     font-size: 1.5rem;
     color: azure;
     line-height: 1.3em;
+    padding: 1%;
 }
 .tituloronaldo{
     text-align: center;
@@ -121,19 +124,23 @@ li{
 @media screen and (max-width: 480px) {
     .card {
         width: calc(100% - 20px); 
+    
     }
+   
 }
+
 .tituloscards{
     text-align: center;
     font-size: 1.5rem; 
 }
 a {
     color:black;
+    text-decoration: none;
 }
 .logo{
-    width: 28%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 25%;
+    float: left;
+    margin-bottom: 1%;
 }
 
 .imgrelativo{ 
@@ -148,7 +155,7 @@ a {
 
 .absolute{
     position: absolute;
-  top: 8px;
+  top: 17px;
   left: 16px;
   font-size: 18px;
   background-color: aliceblue;
@@ -159,8 +166,24 @@ a {
 
 .menu{
     color: azure;
-    font-size: 2em;
+    font-size: 1.7em;
+    margin-right: 5%;
 }
+
+.menul{
+    display: flex;
+
+}
+
+@media(max-width: 480px){
+    .menu{
+        color: azure;
+        font-size: 1.0em;
+        margin-right: 5%;
+
+    }
+}
+
 .logoAL{
     width: 18%;
     float: left;
