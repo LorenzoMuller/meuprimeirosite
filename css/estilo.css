@@ -19,7 +19,7 @@ footer{
 }
 @media only screen and (max-width:  800px) {
     footer{
-        background-color: black;
+        background-color:azure;
     }
 }
 nav{
@@ -128,25 +128,40 @@ li{
     font-size: 1.5rem; 
 }
 a {
-    color: green;
+    color:black;
 }
 .logo{
     width: 28%;
     margin-left: auto;
     margin-right: auto;
 }
-.imgrelativo{
-    position: relative;
-    text-align: center;
-    padding: 2%;
-}
 
-.imgrelativo{
-    opacity: 0.8;
+.imgrelativo{ 
     width: 100%;
     height:auto;
+    margin-bottom: 2%;
 }
+
+.container{
+   position: relative;
+}
+
+.absolute{
+    position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  background-color: aliceblue;
+  padding: 0.6%;
+  font-size: 1.2em;
+}
+
+
 .menu{
     color: azure;
     font-size: 2em;
+}
+.logoAL{
+    width: 18%;
+    float: left;
 }
