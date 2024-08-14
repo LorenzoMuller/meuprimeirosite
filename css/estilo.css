@@ -207,14 +207,18 @@ a {
     width: 18%;
     float: left;
 }
-.gmail{
+.pContato{
     text-align: center;
     font-size: 2em;
     color: azure;
     padding: 1.2%;
 }
 .quest1{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    font-size: 1.6em;
+    margin-left: 35%;
+}
+.ContatoForm{
+    margin-left: 35%; 
+    width: 60%;
+    padding: 1%;
 }
